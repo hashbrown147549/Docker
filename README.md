@@ -53,6 +53,19 @@
   #### to create a new docker network
     docker network create NETWORK_NAME
 
+## TO BUILD A DOCKER IMAGE
+ create a Dokcer file in your app folder and include the following
+            FROM node
+            RUN
+            CMD
+            COPY
+            ENV
+ save it
+ logout and login into your docker desktop through the terminal
+                    
+                 docker build -t IMAGE_NAME
+    
+
       
 
     
